@@ -39,6 +39,7 @@ void help() {
     printf("\texit\t\texits toyshell\n");
     printf("\t[command]\t\tsome basic UNIX commands can be run\n");
     printf("\tcd [dir]\t\tbasic change directory, function implemented\n");
+    printf("\tsetenv [key] [value]\tallows to set environment variable\n");
 }
 
 void changeDir(char * dir, char * currentDir) {
